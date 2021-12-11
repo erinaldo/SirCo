@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDescuentosPorMes" targetNamespace="http://tempuri.org/DSDescuentosPorMes.xsd" xmlns:mstns="http://tempuri.org/DSDescuentosPorMes.xsd" xmlns="http://tempuri.org/DSDescuentosPorMes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDescuentosPorMes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSDescuentosPorMes" msprop:Generator_UserDSName="DSDescuentosPorMes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_DescuentosXMes" msprop:Generator_TableClassName="Tbl_DescuentosXMesDataTable" msprop:Generator_TableVarName="tableTbl_DescuentosXMes" msprop:Generator_RowChangedName="Tbl_DescuentosXMesRowChanged" msprop:Generator_TablePropName="Tbl_DescuentosXMes" msprop:Generator_RowDeletingName="Tbl_DescuentosXMesRowDeleting" msprop:Generator_RowChangingName="Tbl_DescuentosXMesRowChanging" msprop:Generator_RowEvHandlerName="Tbl_DescuentosXMesRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_DescuentosXMesRowDeleted" msprop:Generator_RowClassName="Tbl_DescuentosXMesRow" msprop:Generator_UserTableName="Tbl_DescuentosXMes" msprop:Generator_RowEvArgName="Tbl_DescuentosXMesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sucursal" msprop:Generator_ColumnVarNameInTable="columnsucursal" msprop:Generator_ColumnPropNameInRow="sucursal" msprop:Generator_ColumnPropNameInTable="sucursalColumn" msprop:Generator_UserColumnName="sucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="descrip" msprop:Generator_ColumnVarNameInTable="columndescrip" msprop:Generator_ColumnPropNameInRow="descrip" msprop:Generator_ColumnPropNameInTable="descripColumn" msprop:Generator_UserColumnName="descrip" type="xs:string" minOccurs="0" />
+              <xs:element name="referenc" msprop:Generator_ColumnVarNameInTable="columnreferenc" msprop:Generator_ColumnPropNameInRow="referenc" msprop:Generator_ColumnPropNameInTable="referencColumn" msprop:Generator_UserColumnName="referenc" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="hora" msprop:Generator_ColumnVarNameInTable="columnhora" msprop:Generator_ColumnPropNameInRow="hora" msprop:Generator_ColumnPropNameInTable="horaColumn" msprop:Generator_UserColumnName="hora" type="xs:string" minOccurs="0" />
+              <xs:element name="importe" msprop:Generator_ColumnVarNameInTable="columnimporte" msprop:Generator_ColumnPropNameInRow="importe" msprop:Generator_ColumnPropNameInTable="importeColumn" msprop:Generator_UserColumnName="importe" type="xs:double" minOccurs="0" />
+              <xs:element name="observa" msprop:Generator_ColumnVarNameInTable="columnobserva" msprop:Generator_ColumnPropNameInRow="observa" msprop:Generator_ColumnPropNameInTable="observaColumn" msprop:Generator_UserColumnName="observa" type="xs:string" minOccurs="0" />
+              <xs:element name="cajero" msprop:Generator_ColumnVarNameInTable="columncajero" msprop:Generator_ColumnPropNameInRow="cajero" msprop:Generator_ColumnPropNameInTable="cajeroColumn" msprop:Generator_UserColumnName="cajero" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="importetotal" msprop:Generator_ColumnVarNameInTable="columnimportetotal" msprop:Generator_ColumnPropNameInRow="importetotal" msprop:Generator_ColumnPropNameInTable="importetotalColumn" msprop:Generator_UserColumnName="importetotal" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

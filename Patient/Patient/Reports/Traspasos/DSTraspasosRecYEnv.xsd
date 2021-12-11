@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTraspasosRecYEnv" targetNamespace="http://tempuri.org/DSTraspasosRecYEnv.xsd" xmlns:mstns="http://tempuri.org/DSTraspasosRecYEnv.xsd" xmlns="http://tempuri.org/DSTraspasosRecYEnv.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTraspasosRecYEnv" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSTraspasosRecYEnv" msprop:Generator_UserDSName="DSTraspasosRecYEnv">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Traspasos" msprop:Generator_TableClassName="Tbl_TraspasosDataTable" msprop:Generator_TableVarName="tableTbl_Traspasos" msprop:Generator_RowChangedName="Tbl_TraspasosRowChanged" msprop:Generator_TablePropName="Tbl_Traspasos" msprop:Generator_RowDeletingName="Tbl_TraspasosRowDeleting" msprop:Generator_RowChangingName="Tbl_TraspasosRowChanging" msprop:Generator_RowEvHandlerName="Tbl_TraspasosRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_TraspasosRowDeleted" msprop:Generator_RowClassName="Tbl_TraspasosRow" msprop:Generator_UserTableName="Tbl_Traspasos" msprop:Generator_RowEvArgName="Tbl_TraspasosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sucursal" msprop:Generator_ColumnVarNameInTable="columnsucursal" msprop:Generator_ColumnPropNameInRow="sucursal" msprop:Generator_ColumnPropNameInTable="sucursalColumn" msprop:Generator_UserColumnName="sucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="decrip" msprop:Generator_ColumnVarNameInTable="columndecrip" msprop:Generator_ColumnPropNameInRow="decrip" msprop:Generator_ColumnPropNameInTable="decripColumn" msprop:Generator_UserColumnName="decrip" type="xs:string" minOccurs="0" />
+              <xs:element name="paresRec" msprop:Generator_ColumnVarNameInTable="columnparesRec" msprop:Generator_ColumnPropNameInRow="paresRec" msprop:Generator_ColumnPropNameInTable="paresRecColumn" msprop:Generator_UserColumnName="paresRec" type="xs:short" minOccurs="0" />
+              <xs:element name="costo" msprop:Generator_ColumnVarNameInTable="columncosto" msprop:Generator_ColumnPropNameInRow="costo" msprop:Generator_ColumnPropNameInTable="costoColumn" msprop:Generator_UserColumnName="costo" type="xs:double" minOccurs="0" />
+              <xs:element name="precInvRec" msprop:Generator_ColumnVarNameInTable="columnprecInvRec" msprop:Generator_ColumnPropNameInRow="precInvRec" msprop:Generator_ColumnPropNameInTable="precInvRecColumn" msprop:Generator_UserColumnName="precInvRec" type="xs:double" minOccurs="0" />
+              <xs:element name="paresEnv" msprop:Generator_ColumnVarNameInTable="columnparesEnv" msprop:Generator_ColumnPropNameInRow="paresEnv" msprop:Generator_ColumnPropNameInTable="paresEnvColumn" msprop:Generator_UserColumnName="paresEnv" type="xs:short" minOccurs="0" />
+              <xs:element name="costomargen" msprop:Generator_ColumnVarNameInTable="columncostomargen" msprop:Generator_ColumnPropNameInRow="costomargen" msprop:Generator_ColumnPropNameInTable="costomargenColumn" msprop:Generator_UserColumnName="costomargen" type="xs:double" minOccurs="0" />
+              <xs:element name="precInvEnv" msprop:Generator_ColumnVarNameInTable="columnprecInvEnv" msprop:Generator_ColumnPropNameInRow="precInvEnv" msprop:Generator_ColumnPropNameInTable="precInvEnvColumn" msprop:Generator_UserColumnName="precInvEnv" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

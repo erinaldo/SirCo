@@ -1,0 +1,62 @@
+FRMCATALOGOLIQUIDACION
+
+Private Sub Btn_Imprimir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_Imprimir.Click
+        Try
+            Call ImprimirReporte()
+        Catch ExceptionErr As Exception
+            MessageBox.Show(ExceptionErr.Message.ToString)
+        End Try
+    End Sub
+    Private Sub ImprimirReporte()
+        Try
+            Dim myForm As New frmReportsBrowser
+
+            myForm.objDataSetLiquidacion = GenerarReporte()
+            myForm.ReportIndex = 12
+            myForm.Show()
+        Catch ExceptionErr As Exception
+            MessageBox.Show(ExceptionErr.Message.ToString)
+        End Try
+    End Sub
+    Private Function GenerarReporte() As DSPReporteLiquidacion
+        'Roberto 04/03/13
+        Try
+            GenerarReporte = New DSPReporteLiquidacion
+            With DGrid
+                For I As Integer = 1 To .Rows.Count - 2
+
+                    If .Rows(I).Cells("Selec").Value = 1 Then
+                        Dim objDataRow As Data.DataRow = GenerarReporte.Tables(0).NewRow()
+                        objDataRow.Item("factura") = .Rows(I).Cells(1).Value
+                        objDataRow.Item("idfolio") = .Rows(I).Cells(2).Value
+                        objDataRow.Item("fum") = .Rows(I).Cells(4).Value
+                        objDataRow.Item("fecfact") = .Rows(I).Cells(5).Value
+                        objDataRow.Item("fecha") = .Rows(I).Cells(6).Value
+                        objDataRow.Item("nocheque") = .Rows(I).Cells(7).Value
+                        objDataRow.Item("proveedor") = .Rows(I).Cells(8).Value
+                        objDataRow.Item("subtotal") = .Rows(I).Cells(9).Value
+                        objDataRow.Item("gastos") = .Rows(I).Cells(10).Value
+                        objDataRow.Item("impuesto") = .Rows(I).Cells(11).Value
+                        objDataRow.Item("descuento") = .Rows(I).Cells(12).Value
+                        objDataRow.Item("total") = .Rows(I).Cells(13).Value
+                        objDataRow.Item("liquidacion") = .Rows(I).Cells(0).Value
+                        'objDataRow.Item("suma") = suma
+                        GenerarReporte.Tables(0).Rows.Add(objDataRow)
+
+                    End If
+                Next
+
+            End With
+        Catch ExceptionErr As Exception
+            MessageBox.Show(ExceptionErr.Message.ToString)
+        End Try
+    End Function
+
+FRMREPORTBROWSER
+
+Public objDataSetLiquidacion As DSPReporteLiquidacion
+Case 12
+                ' REPORTE DE LIQUIDACION
+                Dim Rpt As New rptReporteLiquidacion
+                Rpt.SetDataSource(objDataSetLiquidacion)
+                crReports.ReportSource = Rpt

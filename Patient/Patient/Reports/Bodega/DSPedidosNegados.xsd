@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPedidosNegados" targetNamespace="http://tempuri.org/DSPedidosNegados.xsd" xmlns:mstns="http://tempuri.org/DSPedidosNegados.xsd" xmlns="http://tempuri.org/DSPedidosNegados.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPedidosNegados" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSPedidosNegados" msprop:Generator_UserDSName="DSPedidosNegados" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_PedidosNegados" msprop:Generator_UserTableName="Tbl_PedidosNegados" msprop:Generator_RowDeletedName="Tbl_PedidosNegadosRowDeleted" msprop:Generator_TableClassName="Tbl_PedidosNegadosDataTable" msprop:Generator_RowChangedName="Tbl_PedidosNegadosRowChanged" msprop:Generator_RowClassName="Tbl_PedidosNegadosRow" msprop:Generator_RowChangingName="Tbl_PedidosNegadosRowChanging" msprop:Generator_RowEvArgName="Tbl_PedidosNegadosRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_PedidosNegadosRowChangeEventHandler" msprop:Generator_TablePropName="Tbl_PedidosNegados" msprop:Generator_TableVarName="tableTbl_PedidosNegados" msprop:Generator_RowDeletingName="Tbl_PedidosNegadosRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descrip" msprop:Generator_UserColumnName="descrip" msprop:Generator_ColumnPropNameInRow="descrip" msprop:Generator_ColumnVarNameInTable="columndescrip" msprop:Generator_ColumnPropNameInTable="descripColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInTable="marcaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="estilo" msprop:Generator_UserColumnName="estilo" msprop:Generator_ColumnPropNameInRow="estilo" msprop:Generator_ColumnVarNameInTable="columnestilo" msprop:Generator_ColumnPropNameInTable="estiloColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="medida" msprop:Generator_UserColumnName="medida" msprop:Generator_ColumnPropNameInRow="medida" msprop:Generator_ColumnVarNameInTable="columnmedida" msprop:Generator_ColumnPropNameInTable="medidaColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

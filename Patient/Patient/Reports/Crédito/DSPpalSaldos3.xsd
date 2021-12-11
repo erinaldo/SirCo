@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPpalSaldos3" targetNamespace="http://tempuri.org/DSPpalSaldos3.xsd" xmlns:mstns="http://tempuri.org/DSPpalSaldos3.xsd" xmlns="http://tempuri.org/DSPpalSaldos3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPpalSaldos3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPpalSaldos3" msprop:Generator_DataSetName="DSPpalSaldos3" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Saldos" msprop:Generator_UserTableName="Tbl_Saldos" msprop:Generator_RowDeletedName="Tbl_SaldosRowDeleted" msprop:Generator_RowChangedName="Tbl_SaldosRowChanged" msprop:Generator_RowClassName="Tbl_SaldosRow" msprop:Generator_RowChangingName="Tbl_SaldosRowChanging" msprop:Generator_RowEvArgName="Tbl_SaldosRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_SaldosRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_SaldosDataTable" msprop:Generator_TableVarName="tableTbl_Saldos" msprop:Generator_RowDeletingName="Tbl_SaldosRowDeleting" msprop:Generator_TablePropName="Tbl_Saldos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="iddistrib" msprop:Generator_UserColumnName="iddistrib" msprop:Generator_ColumnVarNameInTable="columniddistrib" msprop:Generator_ColumnPropNameInRow="iddistrib" msprop:Generator_ColumnPropNameInTable="iddistribColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo" msprop:Generator_UserColumnName="saldo" msprop:Generator_ColumnVarNameInTable="columnsaldo" msprop:Generator_ColumnPropNameInRow="saldo" msprop:Generator_ColumnPropNameInTable="saldoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="saldoactual" msprop:Generator_UserColumnName="saldoactual" msprop:Generator_ColumnVarNameInTable="columnsaldoactual" msprop:Generator_ColumnPropNameInRow="saldoactual" msprop:Generator_ColumnPropNameInTable="saldoactualColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

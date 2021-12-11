@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FCE2DF98-E915-4B4D-9CF3-5B3354DCCF97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BCL</RootNamespace>
+    <AssemblyName>BCL</AssemblyName>
+    <MyType>Windows</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BCL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BCL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MySql\Ajustes\BCLAjustes.vb" />
+    <Compile Include="MySql\Apéndice\BCLApendice.vb" />
+    <Compile Include="MySql\Bitácora\BCLBackOrder.vb" />
+    <Compile Include="MySql\Bitácora\BCLCatalogoProveedoresN.vb" />
+    <Compile Include="MySql\Bitácora\BCLDetFactProv.vb" />
+    <Compile Include="MySql\Bitácora\BCLDiasResProv.vb" />
+    <Compile Include="MySql\Bitácora\BCLEstilosSinExist.vb" />
+    <Compile Include="MySql\Bitácora\BCLFacturas.vb" />
+    <Compile Include="MySql\Bitácora\BCLAparador.vb" />
+    <Compile Include="MySql\CajaCredito\BCLCajaCredito.vb" />
+    <Compile Include="MySql\Cargas\BCLCargaMysqlSql.vb" />
+    <Compile Include="MySql\Cargas\BCLGeneraTimbrado.vb" />
+    <Compile Include="MySql\Compras\BCLCalendario.vb" />
+    <Compile Include="MySql\Compras\BCLCatalogoEstilosClasif.vb" />
+    <Compile Include="MySql\Compras\BCLCompras.vb" />
+    <Compile Include="MySql\Crédito\BCLCatalogoDistribuidor.vb" />
+    <Compile Include="MySql\Crédito\BCLCatalogoProspecto.vb" />
+    <Compile Include="MySql\Dwh\BCLDescuentosXMes.vb" />
+    <Compile Include="MySql\Dwh\BCLExistenciaActual.vb" />
+    <Compile Include="MySql\Dwh\BCLRebaja.vb" />
+    <Compile Include="MySql\Dwh\BCLVentaPorMes.vb" />
+    <Compile Include="MySql\Estructura\BCLCatalogoModelos.vb" />
+    <Compile Include="MySql\Inventarios\BCLFaltanteInv.vb" />
+    <Compile Include="MySql\Inventarios\BCLSobranteInv.vb" />
+    <Compile Include="Sql\Compras\BCLActualizaUpcs.vb" />
+    <Compile Include="Sql\Compras\BCLCapturaUPCs.vb" />
+    <Compile Include="Sql\Compras\BCLCatalogoCorrida.vb" />
+    <Compile Include="Sql\Compras\BCLSeguimientoCedis.vb" />
+    <Compile Include="Sql\Compras\BCLUPCs.vb" />
+    <Compile Include="Sql\Control\BCLLayoutDomicilioP.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLCliente.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLAbogados.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLCancelarVales.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLCreditoNew.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLDistrib.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLGestoresDeCartera.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLNegociosExternos.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLPromotorExterno.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLRecuperacionCortes.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLRelacionSQL.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLTipoCredito.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLTipoVivienda.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLValera.vb" />
+    <Compile Include="Sql\Dwh\BCLEstadisticaVentas.vb" />
+    <Compile Include="Sql\Dwh\BCLPresupuesto.vb" />
+    <Compile Include="Sql\Dwh\BCLRotacion.vb" />
+    <Compile Include="Sql\Fiscal\BCLApendiceSQL.vb" />
+    <Compile Include="Sql\Costo\BCLCostoMargen.vb" />
+    <Compile Include="Sql\Credito Nuevo\BCLCreditoNuevo.vb" />
+    <Compile Include="Sql\Fiscal\BCLVentasFiscal.vb" />
+    <Compile Include="Sql\Pasivo\BCLPasivo.vb" />
+    <Compile Include="Sql\Punto Venta\BCLAgrupaciones.vb" />
+    <Compile Include="Sql\Punto Venta\BCLCupones.vb" />
+    <Compile Include="Sql\Punto Venta\BCLPromociones.vb" />
+    <Compile Include="Sql\Punto Venta\BCLPuntoVenta.vb" />
+    <Compile Include="Sql\Tienda\BCLTicketPromedio.vb" />
+    <Compile Include="Sql\Traspasos\BCLImprimeTraspasos.vb" />
+    <Compile Include="MySql\Compras\BCLResurtido.vb" />
+    <Compile Include="MySql\CuantasXPagar\BCLSaldosProv.vb" />
+    <Compile Include="MySql\Dwh\BCLFormasPago.vb" />
+    <Compile Include="MySql\Dwh\BCLVentasCero.vb" />
+    <Compile Include="MySql\Gastos\BCLCatalogoGastos.vb" />
+    <Compile Include="MySql\HelpDesk\BCLBitProcesos.vb" />
+    <Compile Include="MySql\Inventarios\BCLCorteFolios.vb" />
+    <Compile Include="MySql\Inventarios\BCLInventarios.vb" />
+    <Compile Include="MySql\Traspasos\BCLTraspasos.vb" />
+    <Compile Include="MySql\CuantasXPagar\BCLCatalogoCuentas.vb" />
+    <Compile Include="MySql\CuantasXPagar\BCLLiquidacion.vb" />
+    <Compile Include="MySql\CuantasXPagar\BCLNotasCC.vb" />
+    <Compile Include="MySql\Dwh\BCLVentas.vb" />
+    <Compile Include="MySql\General\BCLio.vb" />
+    <Compile Include="MySql\Ventas\BCLReporteVentas.vb" />
+    <Compile Include="MySql\Dwh\BCLInventario.vb" />
+    <Compile Include="MySql\Dwh\BCLProyeccionPromociones.vb" />
+    <Compile Include="MySql\Dwh\BCLAntiInvent.vb" />
+    <Compile Include="MySql\Dwh\BCLValesPorNegocio.vb" />
+    <Compile Include="MySql\Estructura\BCLEstructura.vb" />
+    <Compile Include="MySql\HelpDesk\BCLCatalogoActividades.vb" />
+    <Compile Include="MySql\Nómina\BCLDesgloseMonetario.vb" />
+    <Compile Include="MySql\Nómina\BCLHuellasEmpleado.vb" />
+    <Compile Include="MySql\Recibo\BCLBulto.vb" />
+    <Compile Include="MySql\Recibo\BCLOperaciones.vb" />
+    <Compile Include="MySql\TrackCoqueta\BCLTrackCoqueta.vb" />
+    <Compile Include="MySql\General\BCLMySqlGral.vb" />
+    <Compile Include="MySql\Bitácora\BCLCatalogoEstilos.vb" />
+    <Compile Include="MySql\Bitácora\BCLPedidos.vb" />
+    <Compile Include="MySql\Bitácora\BCLCatalogoProveedores.vb" />
+    <Compile Include="MySql\General\BCLPersis.vb" />
+    <Compile Include="MySql\Bitácora\BCLBitacora.vb" />
+    <Compile Include="MySql\General\BCLMicrosip.vb" />
+    <Compile Include="MySql\Bitácora\BCLDevoluciones.vb" />
+    <Compile Include="MySql\Bitácora\BCLCatalogoMarca.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoFrecPago.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoMovEmp.vb" />
+    <Compile Include="MySql\Nómina\BCLConceptoRep.vb" />
+    <Compile Include="MySql\Nómina\BCLNomina.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoIncapacidad.vb" />
+    <Compile Include="MySql\Nómina\BCLVentaNomina.vb" />
+    <Compile Include="MySql\Nómina\BCLMeta.vb" />
+    <Compile Include="MySql\Tarjetas\BCLCatalogoTarjetas.vb" />
+    <Compile Include="MySql\Nómina\BCLChecador.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoDeptos.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoPuestos.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoPercDeduc.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoRepetitivo.vb" />
+    <Compile Include="MySql\Nómina\BCLCatalogoEmpleado.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sql\Compras\BCLEtiquetasAparador.vb" />
+    <Compile Include="Sql\Migración\BCLMigracion.vb" />
+    <Compile Include="Sql\Traspasos\BCLTraspasosSQL.vb" />
+    <Compile Include="Sql\Traspasos\BCLTraspasosAutomaticos.vb" />
+    <Compile Include="Sql\VentaEnLinea\BCLAnalisisfull.vb" />
+    <Compile Include="Sql\VentaEnLinea\BCLLineo.vb" />
+    <Compile Include="Sql\VentaEnLinea\BCLVentaEnLinea.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALPatient\DAL.vbproj">
+      <Project>{890D7A87-ED32-4004-8FF6-4D68B70D5335}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

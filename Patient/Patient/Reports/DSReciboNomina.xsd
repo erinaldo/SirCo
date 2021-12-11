@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReciboNomina" targetNamespace="http://tempuri.org/DSReciboNomina.xsd" xmlns:mstns="http://tempuri.org/DSReciboNomina.xsd" xmlns="http://tempuri.org/DSReciboNomina.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReciboNomina" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSReciboNomina" msprop:Generator_DataSetName="DSReciboNomina" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Recibo" msprop:Generator_UserTableName="Tbl_Recibo" msprop:Generator_RowDeletedName="Tbl_ReciboRowDeleted" msprop:Generator_RowChangedName="Tbl_ReciboRowChanged" msprop:Generator_RowClassName="Tbl_ReciboRow" msprop:Generator_RowChangingName="Tbl_ReciboRowChanging" msprop:Generator_RowEvArgName="Tbl_ReciboRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_ReciboRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_ReciboDataTable" msprop:Generator_TableVarName="tableTbl_Recibo" msprop:Generator_RowDeletingName="Tbl_ReciboRowDeleting" msprop:Generator_TablePropName="Tbl_Recibo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idEmpleado" msprop:Generator_UserColumnName="idEmpleado" msprop:Generator_ColumnVarNameInTable="columnidEmpleado" msprop:Generator_ColumnPropNameInRow="idEmpleado" msprop:Generator_ColumnPropNameInTable="idEmpleadoColumn" type="xs:string" />
+              <xs:element name="NombreCompleto" msprop:Generator_UserColumnName="NombreCompleto" msprop:Generator_ColumnVarNameInTable="columnNombreCompleto" msprop:Generator_ColumnPropNameInRow="NombreCompleto" msprop:Generator_ColumnPropNameInTable="NombreCompletoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RFC" msprop:Generator_UserColumnName="RFC" msprop:Generator_ColumnVarNameInTable="columnRFC" msprop:Generator_ColumnPropNameInRow="RFC" msprop:Generator_ColumnPropNameInTable="RFCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Depto" msprop:Generator_UserColumnName="Depto" msprop:Generator_ColumnVarNameInTable="columnDepto" msprop:Generator_ColumnPropNameInRow="Depto" msprop:Generator_ColumnPropNameInTable="DeptoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Puesto" msprop:Generator_UserColumnName="Puesto" msprop:Generator_ColumnVarNameInTable="columnPuesto" msprop:Generator_ColumnPropNameInRow="Puesto" msprop:Generator_ColumnPropNameInTable="PuestoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sueldo" msprop:Generator_UserColumnName="Sueldo" msprop:Generator_ColumnVarNameInTable="columnSueldo" msprop:Generator_ColumnPropNameInRow="Sueldo" msprop:Generator_ColumnPropNameInTable="SueldoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TPerc" msprop:Generator_UserColumnName="TPerc" msprop:Generator_ColumnVarNameInTable="columnTPerc" msprop:Generator_ColumnPropNameInRow="TPerc" msprop:Generator_ColumnPropNameInTable="TPercColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TDeduc" msprop:Generator_UserColumnName="TDeduc" msprop:Generator_ColumnVarNameInTable="columnTDeduc" msprop:Generator_ColumnPropNameInRow="TDeduc" msprop:Generator_ColumnPropNameInTable="TDeducColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_UserColumnName="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ingreso" msprop:Generator_UserColumnName="ingreso" msprop:Generator_ColumnPropNameInRow="ingreso" msprop:Generator_ColumnVarNameInTable="columningreso" msprop:Generator_ColumnPropNameInTable="ingresoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="noimss" msprop:Generator_UserColumnName="noimss" msprop:Generator_ColumnPropNameInRow="noimss" msprop:Generator_ColumnVarNameInTable="columnnoimss" msprop:Generator_ColumnPropNameInTable="noimssColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaFin" msprop:Generator_UserColumnName="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaIni" msprop:Generator_UserColumnName="FechaIni" msprop:Generator_ColumnVarNameInTable="columnFechaIni" msprop:Generator_ColumnPropNameInRow="FechaIni" msprop:Generator_ColumnPropNameInTable="FechaIniColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUCURSAL" msprop:Generator_UserColumnName="SUCURSAL" msprop:Generator_ColumnPropNameInRow="SUCURSAL" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL" msprop:Generator_ColumnPropNameInTable="SUCURSALColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tbl_ReciboDet" msprop:Generator_UserTableName="Tbl_ReciboDet" msprop:Generator_RowDeletedName="Tbl_ReciboDetRowDeleted" msprop:Generator_RowChangedName="Tbl_ReciboDetRowChanged" msprop:Generator_RowClassName="Tbl_ReciboDetRow" msprop:Generator_RowChangingName="Tbl_ReciboDetRowChanging" msprop:Generator_RowEvArgName="Tbl_ReciboDetRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_ReciboDetRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_ReciboDetDataTable" msprop:Generator_TableVarName="tableTbl_ReciboDet" msprop:Generator_RowDeletingName="Tbl_ReciboDetRowDeleting" msprop:Generator_TablePropName="Tbl_ReciboDet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idEmpleado" msprop:Generator_UserColumnName="idEmpleado" msprop:Generator_ColumnVarNameInTable="columnidEmpleado" msprop:Generator_ColumnPropNameInRow="idEmpleado" msprop:Generator_ColumnPropNameInTable="idEmpleadoColumn" type="xs:string" />
+              <xs:element name="Ren" msprop:Generator_UserColumnName="Ren" msprop:Generator_ColumnVarNameInTable="columnRen" msprop:Generator_ColumnPropNameInRow="Ren" msprop:Generator_ColumnPropNameInTable="RenColumn" type="xs:string" />
+              <xs:element name="UniPerc" msprop:Generator_UserColumnName="UniPerc" msprop:Generator_ColumnVarNameInTable="columnUniPerc" msprop:Generator_ColumnPropNameInRow="UniPerc" msprop:Generator_ColumnPropNameInTable="UniPercColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionPerc" msprop:Generator_UserColumnName="DescripcionPerc" msprop:Generator_ColumnVarNameInTable="columnDescripcionPerc" msprop:Generator_ColumnPropNameInRow="DescripcionPerc" msprop:Generator_ColumnPropNameInTable="DescripcionPercColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Gravable" msprop:Generator_UserColumnName="Gravable" msprop:Generator_ColumnVarNameInTable="columnGravable" msprop:Generator_ColumnPropNameInRow="Gravable" msprop:Generator_ColumnPropNameInTable="GravableColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Exento" msprop:Generator_UserColumnName="Exento" msprop:Generator_ColumnVarNameInTable="columnExento" msprop:Generator_ColumnPropNameInRow="Exento" msprop:Generator_ColumnPropNameInTable="ExentoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UniDeduc" msprop:Generator_UserColumnName="UniDeduc" msprop:Generator_ColumnVarNameInTable="columnUniDeduc" msprop:Generator_ColumnPropNameInRow="UniDeduc" msprop:Generator_ColumnPropNameInTable="UniDeducColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionDeduc" msprop:Generator_UserColumnName="DescripcionDeduc" msprop:Generator_ColumnVarNameInTable="columnDescripcionDeduc" msprop:Generator_ColumnPropNameInRow="DescripcionDeduc" msprop:Generator_ColumnPropNameInTable="DescripcionDeducColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Retencion" msprop:Generator_UserColumnName="Retencion" msprop:Generator_ColumnVarNameInTable="columnRetencion" msprop:Generator_ColumnPropNameInRow="Retencion" msprop:Generator_ColumnPropNameInTable="RetencionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Saldo" msprop:Generator_UserColumnName="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tbl_Recibo" />
+      <xs:field xpath="mstns:idEmpleado" />
+    </xs:unique>
+    <xs:unique name="Tbl_ReciboDet_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tbl_ReciboDet" />
+      <xs:field xpath="mstns:idEmpleado" />
+      <xs:field xpath="mstns:Ren" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Tbl_Recibo_Tbl_ReciboDet" msdata:parent="Tbl_Recibo" msdata:child="Tbl_ReciboDet" msdata:parentkey="idEmpleado" msdata:childkey="idEmpleado" msprop:Generator_UserRelationName="Tbl_Recibo_Tbl_ReciboDet" msprop:Generator_RelationVarName="relationTbl_Recibo_Tbl_ReciboDet" msprop:Generator_UserChildTable="Tbl_ReciboDet" msprop:Generator_UserParentTable="Tbl_Recibo" msprop:Generator_ParentPropName="Tbl_ReciboRow" msprop:Generator_ChildPropName="GetTbl_ReciboDetRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPpalBitacora" targetNamespace="http://tempuri.org/DSPpalBitacora.xsd" xmlns:mstns="http://tempuri.org/DSPpalBitacora.xsd" xmlns="http://tempuri.org/DSPpalBitacora.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPpalBitacora" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSPpalBitacora" msprop:Generator_UserDSName="DSPpalBitacora" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_PpalBitacora" msprop:Generator_UserTableName="Tbl_PpalBitacora" msprop:Generator_RowDeletedName="Tbl_PpalBitacoraRowDeleted" msprop:Generator_TableClassName="Tbl_PpalBitacoraDataTable" msprop:Generator_RowChangedName="Tbl_PpalBitacoraRowChanged" msprop:Generator_RowClassName="Tbl_PpalBitacoraRow" msprop:Generator_RowChangingName="Tbl_PpalBitacoraRowChanging" msprop:Generator_RowEvArgName="Tbl_PpalBitacoraRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_PpalBitacoraRowChangeEventHandler" msprop:Generator_TablePropName="Tbl_PpalBitacora" msprop:Generator_TableVarName="tableTbl_PpalBitacora" msprop:Generator_RowDeletingName="Tbl_PpalBitacoraRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Marca" msprop:Generator_UserColumnName="Marca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Proveedor" msprop:Generator_UserColumnName="Proveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sucursal" msprop:Generator_UserColumnName="Sucursal" msprop:Generator_ColumnPropNameInRow="Sucursal" msprop:Generator_ColumnVarNameInTable="columnSucursal" msprop:Generator_ColumnPropNameInTable="SucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdeComp" msprop:Generator_UserColumnName="OrdeComp" msprop:Generator_ColumnPropNameInRow="OrdeComp" msprop:Generator_ColumnVarNameInTable="columnOrdeComp" msprop:Generator_ColumnPropNameInTable="OrdeCompColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ResurtSN" msprop:Generator_UserColumnName="ResurtSN" msprop:Generator_ColumnPropNameInRow="ResurtSN" msprop:Generator_ColumnVarNameInTable="columnResurtSN" msprop:Generator_ColumnPropNameInTable="ResurtSNColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EstiloF" msprop:Generator_UserColumnName="EstiloF" msprop:Generator_ColumnPropNameInRow="EstiloF" msprop:Generator_ColumnVarNameInTable="columnEstiloF" msprop:Generator_ColumnPropNameInTable="EstiloFColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EstiloN" msprop:Generator_UserColumnName="EstiloN" msprop:Generator_ColumnPropNameInRow="EstiloN" msprop:Generator_ColumnVarNameInTable="columnEstiloN" msprop:Generator_ColumnPropNameInTable="EstiloNColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pedida" msprop:Generator_UserColumnName="Pedida" msprop:Generator_ColumnPropNameInRow="Pedida" msprop:Generator_ColumnVarNameInTable="columnPedida" msprop:Generator_ColumnPropNameInTable="PedidaColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Recibida" msprop:Generator_UserColumnName="Recibida" msprop:Generator_ColumnPropNameInRow="Recibida" msprop:Generator_ColumnVarNameInTable="columnRecibida" msprop:Generator_ColumnPropNameInTable="RecibidaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pendiente" msprop:Generator_UserColumnName="Pendiente" msprop:Generator_ColumnPropNameInRow="Pendiente" msprop:Generator_ColumnVarNameInTable="columnPendiente" msprop:Generator_ColumnPropNameInTable="PendienteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_UserColumnName="Precio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Importe" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Entrega" msprop:Generator_UserColumnName="Entrega" msprop:Generator_ColumnPropNameInRow="Entrega" msprop:Generator_ColumnVarNameInTable="columnEntrega" msprop:Generator_ColumnPropNameInTable="EntregaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Cancela" msprop:Generator_UserColumnName="Cancela" msprop:Generator_ColumnPropNameInRow="Cancela" msprop:Generator_ColumnVarNameInTable="columnCancela" msprop:Generator_ColumnPropNameInTable="CancelaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaSeg" msprop:Generator_UserColumnName="FechaSeg" msprop:Generator_ColumnPropNameInRow="FechaSeg" msprop:Generator_ColumnVarNameInTable="columnFechaSeg" msprop:Generator_ColumnPropNameInTable="FechaSegColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

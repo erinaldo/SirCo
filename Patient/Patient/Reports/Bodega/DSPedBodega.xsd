@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPedBodega" targetNamespace="http://tempuri.org/DSPedBodega.xsd" xmlns:mstns="http://tempuri.org/DSPedBodega.xsd" xmlns="http://tempuri.org/DSPedBodega.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPedBodega" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPedBodega" msprop:Generator_UserDSName="DSPedBodega">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_PedBodega" msprop:Generator_UserTableName="Tbl_PedBodega" msprop:Generator_RowEvArgName="Tbl_PedBodegaRowChangeEvent" msprop:Generator_TableVarName="tableTbl_PedBodega" msprop:Generator_TablePropName="Tbl_PedBodega" msprop:Generator_RowDeletingName="Tbl_PedBodegaRowDeleting" msprop:Generator_RowChangingName="Tbl_PedBodegaRowChanging" msprop:Generator_RowDeletedName="Tbl_PedBodegaRowDeleted" msprop:Generator_RowEvHandlerName="Tbl_PedBodegaRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_PedBodegaDataTable" msprop:Generator_RowChangedName="Tbl_PedBodegaRowChanged" msprop:Generator_RowClassName="Tbl_PedBodegaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn" msprop:Generator_UserColumnName="marca" type="xs:string" minOccurs="0" />
+              <xs:element name="estilon" msprop:Generator_ColumnVarNameInTable="columnestilon" msprop:Generator_ColumnPropNameInRow="estilon" msprop:Generator_ColumnPropNameInTable="estilonColumn" msprop:Generator_UserColumnName="estilon" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:string" minOccurs="0" />
+              <xs:element name="medida" msprop:Generator_ColumnVarNameInTable="columnmedida" msprop:Generator_ColumnPropNameInRow="medida" msprop:Generator_ColumnPropNameInTable="medidaColumn" msprop:Generator_UserColumnName="medida" type="xs:string" minOccurs="0" />
+              <xs:element name="descrip" msprop:Generator_ColumnVarNameInTable="columndescrip" msprop:Generator_ColumnPropNameInRow="descrip" msprop:Generator_ColumnPropNameInTable="descripColumn" msprop:Generator_UserColumnName="descrip" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F21B67D-0BCF-447A-9C53-E15B43ADC148}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Patient</RootNamespace>
+    <AssemblyName>Patient</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/Patient/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Patient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Patient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINNT\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\bwrPatient.Designer.vb">
+      <DependentUpon>bwrPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\bwrPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClinicReportOption.Designer.vb">
+      <DependentUpon>ClinicReportOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClinicReportOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDate.Designer.vb">
+      <DependentUpon>frmDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDoctorEntry.Designer.vb">
+      <DependentUpon>frmDoctorEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDoctorEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPatientClinic.Designer.vb">
+      <DependentUpon>frmPatientClinic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPatientClinic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPatientClinicCombine.Designer.vb">
+      <DependentUpon>frmPatientClinicCombine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPatientClinicCombine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPatientEntry.Designer.vb">
+      <DependentUpon>frmPatientEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPatientEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReportsBrowser.Designer.vb">
+      <DependentUpon>frmReportsBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReportsBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSearchPatient.Designer.vb">
+      <DependentUpon>frmSearchPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSearchPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSectionEntry.designer.vb">
+      <DependentUpon>frmSectionEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSectionEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUserEntry.Designer.vb">
+      <DependentUpon>frmUserEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUserEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ModGeneral.vb" />
+    <Compile Include="Modules\ModMain.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ZapateriaMain.designer.vb">
+      <DependentUpon>ZapateriaMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZapateriaMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportDataSet.vb">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptClinicList.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptClinicList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptPatientList.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPatientList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="UserControl\ClinicList.Designer.vb">
+      <DependentUpon>ClinicList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ClinicList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesClinic.Designer.vb">
+      <DependentUpon>CurrentModulesClinic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesClinic.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesPatients.Designer.vb">
+      <DependentUpon>CurrentModulesPatients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesPatients.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesUsers.Designer.vb">
+      <DependentUpon>CurrentModulesUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CurrentModulesUsers.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\DoctorList.Designer.vb">
+      <DependentUpon>DoctorList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\DoctorList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Main.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PatientList.Designer.vb">
+      <DependentUpon>PatientList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PatientList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SectionList.designer.vb">
+      <DependentUpon>SectionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SectionList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UserList.Designer.vb">
+      <DependentUpon>UserList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UserList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\bwrPatient.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>bwrPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClinicReportOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClinicReportOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDoctorEntry.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDoctorEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPatientClinic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPatientClinic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPatientClinicCombine.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPatientClinicCombine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPatientEntry.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPatientEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReportsBrowser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportsBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSearchPatient.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSearchPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSectionEntry.resx">
+      <DependentUpon>frmSectionEntry.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUserEntry.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUserEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZapateriaMain.resx">
+      <DependentUpon>ZapateriaMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptClinicList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptClinicList.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPatientList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPatientList.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ClinicList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClinicList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CurrentModulesClinic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CurrentModulesClinic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CurrentModulesPatients.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CurrentModulesPatients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CurrentModulesUsers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CurrentModulesUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\DoctorList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DoctorList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PatientList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PatientList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SectionList.resx">
+      <DependentUpon>SectionList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UserList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserList.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\ReportDataSet.xsc">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ReportDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\ReportDataSet.xss">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BCLPatient\BCLPatient.vbproj">
+      <Project>{FCE2DF98-E915-4B4D-9CF3-5B3354DCCF97}</Project>
+      <Name>BCLPatient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\Patient.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\logos2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

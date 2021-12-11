@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSArticulosRecibidos" targetNamespace="http://tempuri.org/DSReciboBono.xsd" xmlns:mstns="http://tempuri.org/DSReciboBono.xsd" xmlns="http://tempuri.org/DSReciboBono.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSArticulosRecibidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSArticulosRecibidos" msprop:Generator_DataSetName="DSArticulosRecibidos" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_ArticulosRecibidos" msprop:Generator_UserTableName="Tbl_ArticulosRecibidos" msprop:Generator_RowDeletedName="Tbl_ArticulosRecibidosRowDeleted" msprop:Generator_RowChangedName="Tbl_ArticulosRecibidosRowChanged" msprop:Generator_RowClassName="Tbl_ArticulosRecibidosRow" msprop:Generator_RowChangingName="Tbl_ArticulosRecibidosRowChanging" msprop:Generator_RowEvArgName="Tbl_ArticulosRecibidosRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_ArticulosRecibidosRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_ArticulosRecibidosDataTable" msprop:Generator_TableVarName="tableTbl_ArticulosRecibidos" msprop:Generator_RowDeletingName="Tbl_ArticulosRecibidosRowDeleting" msprop:Generator_TablePropName="Tbl_ArticulosRecibidos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sucursal" msprop:Generator_UserColumnName="sucursal" msprop:Generator_ColumnVarNameInTable="_columnsucursal" msprop:Generator_ColumnPropNameInRow="_sucursal" msprop:Generator_ColumnPropNameInTable="_sucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="modelo" msprop:Generator_UserColumnName="modelo" msprop:Generator_ColumnVarNameInTable="columnmodelo" msprop:Generator_ColumnPropNameInRow="modelo" msprop:Generator_ColumnPropNameInTable="modeloColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="corrida" msprop:Generator_UserColumnName="corrida" msprop:Generator_ColumnPropNameInRow="corrida" msprop:Generator_ColumnVarNameInTable="columncorrida" msprop:Generator_ColumnPropNameInTable="corridaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="estructura" msprop:Generator_UserColumnName="estructura" msprop:Generator_ColumnVarNameInTable="columnestructura" msprop:Generator_ColumnPropNameInRow="estructura" msprop:Generator_ColumnPropNameInTable="estructuraColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="pares" msprop:Generator_UserColumnName="pares" msprop:Generator_ColumnVarNameInTable="columnpares" msprop:Generator_ColumnPropNameInRow="pares" msprop:Generator_ColumnPropNameInTable="paresColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_UserColumnName="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

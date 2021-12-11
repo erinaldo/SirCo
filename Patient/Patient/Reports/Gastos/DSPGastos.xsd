@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPGastos" targetNamespace="http://tempuri.org/DSPGastos.xsd" xmlns:mstns="http://tempuri.org/DSPGastos.xsd" xmlns="http://tempuri.org/DSPGastos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPGastos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPGastos" msprop:Generator_DataSetName="DSPGastos" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Gastos" msprop:Generator_UserTableName="Tbl_Gastos" msprop:Generator_RowDeletedName="Tbl_GastosRowDeleted" msprop:Generator_RowChangedName="Tbl_GastosRowChanged" msprop:Generator_RowClassName="Tbl_GastosRow" msprop:Generator_RowChangingName="Tbl_GastosRowChanging" msprop:Generator_RowEvArgName="Tbl_GastosRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_GastosRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_GastosDataTable" msprop:Generator_TableVarName="tableTbl_Gastos" msprop:Generator_RowDeletingName="Tbl_GastosRowDeleting" msprop:Generator_TablePropName="Tbl_Gastos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="folio" msprop:Generator_UserColumnName="folio" msprop:Generator_ColumnVarNameInTable="columnfolio" msprop:Generator_ColumnPropNameInRow="folio" msprop:Generator_ColumnPropNameInTable="folioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_UserColumnName="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="solicita" msprop:Generator_UserColumnName="solicita" msprop:Generator_ColumnVarNameInTable="columnsolicita" msprop:Generator_ColumnPropNameInRow="solicita" msprop:Generator_ColumnPropNameInTable="solicitaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="comentario" msprop:Generator_UserColumnName="comentario" msprop:Generator_ColumnVarNameInTable="columncomentario" msprop:Generator_ColumnPropNameInRow="comentario" msprop:Generator_ColumnPropNameInTable="comentarioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_UserColumnName="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_UserColumnName="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sucursal" msprop:Generator_UserColumnName="sucursal" msprop:Generator_ColumnVarNameInTable="columnsucursal" msprop:Generator_ColumnPropNameInRow="sucursal" msprop:Generator_ColumnPropNameInTable="sucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="foliosuc" msprop:Generator_UserColumnName="foliosuc" msprop:Generator_ColumnPropNameInRow="foliosuc" msprop:Generator_ColumnVarNameInTable="columnfoliosuc" msprop:Generator_ColumnPropNameInTable="foliosucColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

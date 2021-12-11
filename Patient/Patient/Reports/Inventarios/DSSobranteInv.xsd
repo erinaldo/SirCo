@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSobranteInv" targetNamespace="http://tempuri.org/DSSobranteInv.xsd" xmlns:mstns="http://tempuri.org/DSSobranteInv.xsd" xmlns="http://tempuri.org/DSSobranteInv.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSobranteInv" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSSobranteInv" msprop:Generator_UserDSName="DSSobranteInv">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_SobranteInv" msprop:Generator_TableClassName="Tbl_SobranteInvDataTable" msprop:Generator_TableVarName="tableTbl_SobranteInv" msprop:Generator_RowChangedName="Tbl_SobranteInvRowChanged" msprop:Generator_TablePropName="Tbl_SobranteInv" msprop:Generator_RowDeletingName="Tbl_SobranteInvRowDeleting" msprop:Generator_RowChangingName="Tbl_SobranteInvRowChanging" msprop:Generator_RowEvHandlerName="Tbl_SobranteInvRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_SobranteInvRowDeleted" msprop:Generator_RowClassName="Tbl_SobranteInvRow" msprop:Generator_UserTableName="Tbl_SobranteInv" msprop:Generator_RowEvArgName="Tbl_SobranteInvRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn" msprop:Generator_UserColumnName="marca" type="xs:string" minOccurs="0" />
+              <xs:element name="estilo" msprop:Generator_ColumnVarNameInTable="columnestilo" msprop:Generator_ColumnPropNameInRow="estilo" msprop:Generator_ColumnPropNameInTable="estiloColumn" msprop:Generator_UserColumnName="estilo" type="xs:string" minOccurs="0" />
+              <xs:element name="medida" msprop:Generator_ColumnVarNameInTable="columnmedida" msprop:Generator_ColumnPropNameInRow="medida" msprop:Generator_ColumnPropNameInTable="medidaColumn" msprop:Generator_UserColumnName="medida" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:string" minOccurs="0" />
+              <xs:element name="rank" msprop:Generator_ColumnVarNameInTable="columnrank" msprop:Generator_ColumnPropNameInRow="rank" msprop:Generator_ColumnPropNameInTable="rankColumn" msprop:Generator_UserColumnName="rank" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

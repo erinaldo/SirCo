@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPpalCorteFolios" targetNamespace="http://tempuri.org/DSPpalCorteFolios.xsd" xmlns:mstns="http://tempuri.org/DSPpalCorteFolios.xsd" xmlns="http://tempuri.org/DSPpalCorteFolios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPpalCorteFolios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSPpalCorteFolios" msprop:Generator_UserDSName="DSPpalCorteFolios" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Cortefolios" msprop:Generator_UserTableName="Tbl_Cortefolios" msprop:Generator_RowDeletedName="Tbl_CortefoliosRowDeleted" msprop:Generator_TableClassName="Tbl_CortefoliosDataTable" msprop:Generator_RowChangedName="Tbl_CortefoliosRowChanged" msprop:Generator_RowClassName="Tbl_CortefoliosRow" msprop:Generator_RowChangingName="Tbl_CortefoliosRowChanging" msprop:Generator_RowEvArgName="Tbl_CortefoliosRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_CortefoliosRowChangeEventHandler" msprop:Generator_TablePropName="Tbl_Cortefolios" msprop:Generator_TableVarName="tableTbl_Cortefolios" msprop:Generator_RowDeletingName="Tbl_CortefoliosRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sucursal" msprop:Generator_UserColumnName="Sucursal" msprop:Generator_ColumnPropNameInRow="Sucursal" msprop:Generator_ColumnVarNameInTable="columnSucursal" msprop:Generator_ColumnPropNameInTable="SucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip" msprop:Generator_UserColumnName="Descrip" msprop:Generator_ColumnPropNameInRow="Descrip" msprop:Generator_ColumnVarNameInTable="columnDescrip" msprop:Generator_ColumnPropNameInTable="DescripColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_UserColumnName="Tipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FolioIni" msprop:Generator_UserColumnName="FolioIni" msprop:Generator_ColumnPropNameInRow="FolioIni" msprop:Generator_ColumnVarNameInTable="columnFolioIni" msprop:Generator_ColumnPropNameInTable="FolioIniColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FolioFin" msprop:Generator_UserColumnName="FolioFin" msprop:Generator_ColumnPropNameInRow="FolioFin" msprop:Generator_ColumnVarNameInTable="columnFolioFin" msprop:Generator_ColumnPropNameInTable="FolioFinColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

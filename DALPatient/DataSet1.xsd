@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.DAL.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EMPLEADOSTableAdapter" GeneratorDataComponentClassName="EMPLEADOSTableAdapter" Name="EMPLEADOS" UserDataComponentName="EMPLEADOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="&quot;\\10.10.1.1\c:\Microsip datos\ZAPATERIAS TORREON.&quot;.EMPLEADOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "EMPLEADO_ID", "NUMERO", "NOMBRE_COMPLETO", "APELLIDO_PATERNO", "APELLIDO_MATERNO", "NOMBRES", "SALARIO_DIARIO", "SALARIO_INTEG" FROM "EMPLEADOS"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="EMPLEADO_ID" DataSetColumn="EMPLEADO_ID" />
+              <Mapping SourceColumn="NUMERO" DataSetColumn="NUMERO" />
+              <Mapping SourceColumn="NOMBRE_COMPLETO" DataSetColumn="NOMBRE_COMPLETO" />
+              <Mapping SourceColumn="APELLIDO_PATERNO" DataSetColumn="APELLIDO_PATERNO" />
+              <Mapping SourceColumn="APELLIDO_MATERNO" DataSetColumn="APELLIDO_MATERNO" />
+              <Mapping SourceColumn="NOMBRES" DataSetColumn="NOMBRES" />
+              <Mapping SourceColumn="SALARIO_DIARIO" DataSetColumn="SALARIO_DIARIO" />
+              <Mapping SourceColumn="SALARIO_INTEG" DataSetColumn="SALARIO_INTEG" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EMPLEADOS" msprop:Generator_UserTableName="EMPLEADOS" msprop:Generator_RowDeletedName="EMPLEADOSRowDeleted" msprop:Generator_TableClassName="EMPLEADOSDataTable" msprop:Generator_RowChangedName="EMPLEADOSRowChanged" msprop:Generator_RowClassName="EMPLEADOSRow" msprop:Generator_RowChangingName="EMPLEADOSRowChanging" msprop:Generator_RowEvArgName="EMPLEADOSRowChangeEvent" msprop:Generator_RowEvHandlerName="EMPLEADOSRowChangeEventHandler" msprop:Generator_TablePropName="EMPLEADOS" msprop:Generator_TableVarName="tableEMPLEADOS" msprop:Generator_RowDeletingName="EMPLEADOSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPLEADO_ID" msprop:Generator_UserColumnName="EMPLEADO_ID" msprop:Generator_ColumnPropNameInRow="EMPLEADO_ID" msprop:Generator_ColumnVarNameInTable="columnEMPLEADO_ID" msprop:Generator_ColumnPropNameInTable="EMPLEADO_IDColumn" type="xs:int" />
+              <xs:element name="NUMERO" msprop:Generator_UserColumnName="NUMERO" msprop:Generator_ColumnPropNameInRow="NUMERO" msprop:Generator_ColumnVarNameInTable="columnNUMERO" msprop:Generator_ColumnPropNameInTable="NUMEROColumn" type="xs:int" />
+              <xs:element name="NOMBRE_COMPLETO" msprop:Generator_UserColumnName="NOMBRE_COMPLETO" msprop:Generator_ColumnPropNameInRow="NOMBRE_COMPLETO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_COMPLETO" msprop:Generator_ColumnPropNameInTable="NOMBRE_COMPLETOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_PATERNO" msprop:Generator_UserColumnName="APELLIDO_PATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_PATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_PATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_PATERNOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_MATERNO" msprop:Generator_UserColumnName="APELLIDO_MATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_MATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_MATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_MATERNOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRES" msprop:Generator_UserColumnName="NOMBRES" msprop:Generator_ColumnPropNameInRow="NOMBRES" msprop:Generator_ColumnVarNameInTable="columnNOMBRES" msprop:Generator_ColumnPropNameInTable="NOMBRESColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SALARIO_DIARIO" msprop:Generator_UserColumnName="SALARIO_DIARIO" msprop:Generator_ColumnPropNameInRow="SALARIO_DIARIO" msprop:Generator_ColumnVarNameInTable="columnSALARIO_DIARIO" msprop:Generator_ColumnPropNameInTable="SALARIO_DIARIOColumn" type="xs:decimal" />
+              <xs:element name="SALARIO_INTEG" msprop:Generator_UserColumnName="SALARIO_INTEG" msprop:Generator_ColumnPropNameInRow="SALARIO_INTEG" msprop:Generator_ColumnVarNameInTable="columnSALARIO_INTEG" msprop:Generator_ColumnPropNameInTable="SALARIO_INTEGColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EMPLEADOS" />
+      <xs:field xpath="mstns:EMPLEADO_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

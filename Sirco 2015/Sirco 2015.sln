@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Sirco 2015", "Sirco 2015\Sirco 2015.isproj", "{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Default = CD_ROM|Default
+		DVD-5|Default = DVD-5|Default
+		SingleImage|Default = SingleImage|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.CD_ROM|Default.Build.0 = CD_ROM
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.DVD-5|Default.ActiveCfg = DVD-5
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.DVD-5|Default.Build.0 = DVD-5
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.SingleImage|Default.ActiveCfg = SingleImage
+		{72F6559C-20F1-4AEC-92B0-8FFBCE49EE80}.SingleImage|Default.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

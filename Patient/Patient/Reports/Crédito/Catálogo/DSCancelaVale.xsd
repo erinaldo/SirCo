@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCancelaVale" targetNamespace="http://tempuri.org/DSCancelaVale.xsd" xmlns:mstns="http://tempuri.org/DSCancelaVale.xsd" xmlns="http://tempuri.org/DSCancelaVale.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCancelaVale" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSCancelaVale" msprop:Generator_UserDSName="DSCancelaVale" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_CancelaVale" msprop:Generator_UserTableName="Tbl_CancelaVale" msprop:Generator_RowDeletedName="Tbl_CancelaValeRowDeleted" msprop:Generator_TableClassName="Tbl_CancelaValeDataTable" msprop:Generator_RowChangedName="Tbl_CancelaValeRowChanged" msprop:Generator_RowClassName="Tbl_CancelaValeRow" msprop:Generator_RowChangingName="Tbl_CancelaValeRowChanging" msprop:Generator_RowEvArgName="Tbl_CancelaValeRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_CancelaValeRowChangeEventHandler" msprop:Generator_TablePropName="Tbl_CancelaVale" msprop:Generator_TableVarName="tableTbl_CancelaVale" msprop:Generator_RowDeletingName="Tbl_CancelaValeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Distrib" msprop:Generator_UserColumnName="Distrib" msprop:Generator_ColumnPropNameInRow="Distrib" msprop:Generator_ColumnVarNameInTable="columnDistrib" msprop:Generator_ColumnPropNameInTable="DistribColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreDistribuidor" msprop:Generator_UserColumnName="NombreDistribuidor" msprop:Generator_ColumnPropNameInRow="NombreDistribuidor" msprop:Generator_ColumnVarNameInTable="columnNombreDistribuidor" msprop:Generator_ColumnPropNameInTable="NombreDistribuidorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Negocio" msprop:Generator_UserColumnName="Negocio" msprop:Generator_ColumnPropNameInRow="Negocio" msprop:Generator_ColumnVarNameInTable="columnNegocio" msprop:Generator_ColumnPropNameInTable="NegocioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripNegocio" msprop:Generator_UserColumnName="DescripNegocio" msprop:Generator_ColumnPropNameInRow="DescripNegocio" msprop:Generator_ColumnVarNameInTable="columnDescripNegocio" msprop:Generator_ColumnPropNameInTable="DescripNegocioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FolioIni" msprop:Generator_UserColumnName="FolioIni" msprop:Generator_ColumnPropNameInRow="FolioIni" msprop:Generator_ColumnVarNameInTable="columnFolioIni" msprop:Generator_ColumnPropNameInTable="FolioIniColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PersonaCancela" msprop:Generator_UserColumnName="PersonaCancela" msprop:Generator_ColumnPropNameInRow="PersonaCancela" msprop:Generator_ColumnVarNameInTable="columnPersonaCancela" msprop:Generator_ColumnPropNameInTable="PersonaCancelaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FolioFin" msprop:Generator_UserColumnName="FolioFin" msprop:Generator_ColumnPropNameInRow="FolioFin" msprop:Generator_ColumnVarNameInTable="columnFolioFin" msprop:Generator_ColumnPropNameInTable="FolioFinColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreCancela" msprop:Generator_UserColumnName="NombreCancela" msprop:Generator_ColumnPropNameInRow="NombreCancela" msprop:Generator_ColumnVarNameInTable="columnNombreCancela" msprop:Generator_ColumnPropNameInTable="NombreCancelaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IdValera" msprop:Generator_UserColumnName="IdValera" msprop:Generator_ColumnPropNameInRow="IdValera" msprop:Generator_ColumnVarNameInTable="columnIdValera" msprop:Generator_ColumnPropNameInTable="IdValeraColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaValera" msprop:Generator_UserColumnName="FechaValera" msprop:Generator_ColumnPropNameInRow="FechaValera" msprop:Generator_ColumnVarNameInTable="columnFechaValera" msprop:Generator_ColumnPropNameInTable="FechaValeraColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

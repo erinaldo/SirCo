@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSAlcanceMetas" targetNamespace="http://tempuri.org/DSAlcanceMetas.xsd" xmlns:mstns="http://tempuri.org/DSAlcanceMetas.xsd" xmlns="http://tempuri.org/DSAlcanceMetas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSAlcanceMetas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSAlcanceMetas" msprop:Generator_DataSetName="DSAlcanceMetas" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_AlcanceMetas" msprop:Generator_UserTableName="Tbl_AlcanceMetas" msprop:Generator_RowDeletedName="Tbl_AlcanceMetasRowDeleted" msprop:Generator_RowChangedName="Tbl_AlcanceMetasRowChanged" msprop:Generator_RowClassName="Tbl_AlcanceMetasRow" msprop:Generator_RowChangingName="Tbl_AlcanceMetasRowChanging" msprop:Generator_RowEvArgName="Tbl_AlcanceMetasRowChangeEvent" msprop:Generator_RowEvHandlerName="Tbl_AlcanceMetasRowChangeEventHandler" msprop:Generator_TableClassName="Tbl_AlcanceMetasDataTable" msprop:Generator_TableVarName="tableTbl_AlcanceMetas" msprop:Generator_RowDeletingName="Tbl_AlcanceMetasRowDeleting" msprop:Generator_TablePropName="Tbl_AlcanceMetas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descripsucursal" msprop:Generator_UserColumnName="descripsucursal" msprop:Generator_ColumnPropNameInRow="descripsucursal" msprop:Generator_ColumnVarNameInTable="columndescripsucursal" msprop:Generator_ColumnPropNameInTable="descripsucursalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idempleado" msprop:Generator_UserColumnName="idempleado" msprop:Generator_ColumnPropNameInRow="idempleado" msprop:Generator_ColumnVarNameInTable="columnidempleado" msprop:Generator_ColumnPropNameInTable="idempleadoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="vendedor" msprop:Generator_UserColumnName="vendedor" msprop:Generator_ColumnPropNameInRow="vendedor" msprop:Generator_ColumnVarNameInTable="columnvendedor" msprop:Generator_ColumnPropNameInTable="vendedorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nomcompleto" msprop:Generator_UserColumnName="nomcompleto" msprop:Generator_ColumnPropNameInRow="nomcompleto" msprop:Generator_ColumnVarNameInTable="columnnomcompleto" msprop:Generator_ColumnPropNameInTable="nomcompletoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="descrippuesto" msprop:Generator_UserColumnName="descrippuesto" msprop:Generator_ColumnPropNameInRow="descrippuesto" msprop:Generator_ColumnVarNameInTable="columndescrippuesto" msprop:Generator_ColumnPropNameInTable="descrippuestoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInTable="grupoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pares" msprop:Generator_UserColumnName="pares" msprop:Generator_ColumnPropNameInRow="pares" msprop:Generator_ColumnVarNameInTable="columnpares" msprop:Generator_ColumnPropNameInTable="paresColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="impvta" msprop:Generator_UserColumnName="impvta" msprop:Generator_ColumnPropNameInRow="impvta" msprop:Generator_ColumnVarNameInTable="columnimpvta" msprop:Generator_ColumnPropNameInTable="impvtaColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="metapares" msprop:Generator_UserColumnName="metapares" msprop:Generator_ColumnPropNameInRow="metapares" msprop:Generator_ColumnVarNameInTable="columnmetapares" msprop:Generator_ColumnPropNameInTable="metaparesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="bono" msprop:Generator_UserColumnName="bono" msprop:Generator_ColumnPropNameInRow="bono" msprop:Generator_ColumnVarNameInTable="columnbono" msprop:Generator_ColumnPropNameInTable="bonoColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

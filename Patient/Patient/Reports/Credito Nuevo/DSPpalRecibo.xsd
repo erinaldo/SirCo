@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPpalRecibo" targetNamespace="http://tempuri.org/DSPpalRecibo.xsd" xmlns:mstns="http://tempuri.org/DSPpalRecibo.xsd" xmlns="http://tempuri.org/DSPpalRecibo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPpalRecibo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPpalRecibo" msprop:Generator_UserDSName="DSPpalRecibo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tlb_Recibo" msprop:Generator_UserTableName="Tlb_Recibo" msprop:Generator_RowEvArgName="Tlb_ReciboRowChangeEvent" msprop:Generator_TableVarName="tableTlb_Recibo" msprop:Generator_TablePropName="Tlb_Recibo" msprop:Generator_RowDeletingName="Tlb_ReciboRowDeleting" msprop:Generator_RowChangingName="Tlb_ReciboRowChanging" msprop:Generator_RowDeletedName="Tlb_ReciboRowDeleted" msprop:Generator_RowEvHandlerName="Tlb_ReciboRowChangeEventHandler" msprop:Generator_TableClassName="Tlb_ReciboDataTable" msprop:Generator_RowChangedName="Tlb_ReciboRowChanged" msprop:Generator_RowClassName="Tlb_ReciboRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No._x0020_de_x0020_Cta" msprop:Generator_ColumnVarNameInTable="_columnNo__de_Cta" msprop:Generator_ColumnPropNameInRow="_No__de_Cta" msprop:Generator_ColumnPropNameInTable="_No__de_CtaColumn" msprop:Generator_UserColumnName="No. de Cta" type="xs:string" minOccurs="0" />
+              <xs:element name="CORTE" msprop:Generator_ColumnVarNameInTable="columnCORTE" msprop:Generator_ColumnPropNameInRow="CORTE" msprop:Generator_ColumnPropNameInTable="CORTEColumn" msprop:Generator_UserColumnName="CORTE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="abono_x0020_corte" msprop:Generator_ColumnVarNameInTable="columnabono_corte" msprop:Generator_ColumnPropNameInRow="abono_corte" msprop:Generator_ColumnPropNameInTable="abono_corteColumn" msprop:Generator_UserColumnName="abono corte" type="xs:double" minOccurs="0" />
+              <xs:element name="cliente" msprop:Generator_ColumnVarNameInTable="columncliente" msprop:Generator_ColumnPropNameInRow="cliente" msprop:Generator_ColumnPropNameInTable="clienteColumn" msprop:Generator_UserColumnName="cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="distribuidor" msprop:Generator_ColumnVarNameInTable="columndistribuidor" msprop:Generator_ColumnPropNameInRow="distribuidor" msprop:Generator_ColumnPropNameInTable="distribuidorColumn" msprop:Generator_UserColumnName="distribuidor" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo_x0020_anterior" msprop:Generator_ColumnVarNameInTable="columnsaldo_anterior" msprop:Generator_ColumnPropNameInRow="saldo_anterior" msprop:Generator_ColumnPropNameInTable="saldo_anteriorColumn" msprop:Generator_UserColumnName="saldo anterior" type="xs:double" minOccurs="0" />
+              <xs:element name="abonos" msprop:Generator_ColumnVarNameInTable="columnabonos" msprop:Generator_ColumnPropNameInRow="abonos" msprop:Generator_ColumnPropNameInTable="abonosColumn" msprop:Generator_UserColumnName="abonos" type="xs:double" minOccurs="0" />
+              <xs:element name="saldo_x0020_nuevo" msprop:Generator_ColumnVarNameInTable="columnsaldo_nuevo" msprop:Generator_ColumnPropNameInRow="saldo_nuevo" msprop:Generator_ColumnPropNameInTable="saldo_nuevoColumn" msprop:Generator_UserColumnName="saldo nuevo" type="xs:double" minOccurs="0" />
+              <xs:element name="negocio" msprop:Generator_ColumnVarNameInTable="columnnegocio" msprop:Generator_ColumnPropNameInRow="negocio" msprop:Generator_ColumnPropNameInTable="negocioColumn" msprop:Generator_UserColumnName="negocio" type="xs:string" minOccurs="0" />
+              <xs:element name="vale" msprop:Generator_ColumnVarNameInTable="columnvale" msprop:Generator_ColumnPropNameInRow="vale" msprop:Generator_ColumnPropNameInTable="valeColumn" msprop:Generator_UserColumnName="vale" type="xs:string" minOccurs="0" />
+              <xs:element name="compra" msprop:Generator_ColumnVarNameInTable="columncompra" msprop:Generator_ColumnPropNameInRow="compra" msprop:Generator_ColumnPropNameInTable="compraColumn" msprop:Generator_UserColumnName="compra" type="xs:double" minOccurs="0" />
+              <xs:element name="numpagos" msprop:Generator_ColumnVarNameInTable="columnnumpagos" msprop:Generator_ColumnPropNameInRow="numpagos" msprop:Generator_ColumnPropNameInTable="numpagosColumn" msprop:Generator_UserColumnName="numpagos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

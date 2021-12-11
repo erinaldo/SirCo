@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSMuestrasDet" targetNamespace="http://tempuri.org/DSMuestrasDet.xsd" xmlns:mstns="http://tempuri.org/DSMuestrasDet.xsd" xmlns="http://tempuri.org/DSMuestrasDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSMuestrasDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSMuestrasDet" msprop:Generator_UserDSName="DSMuestrasDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="muestrasdet" msprop:Generator_TableClassName="muestrasdetDataTable" msprop:Generator_TableVarName="tablemuestrasdet" msprop:Generator_TablePropName="muestrasdet" msprop:Generator_RowDeletingName="muestrasdetRowDeleting" msprop:Generator_RowChangingName="muestrasdetRowChanging" msprop:Generator_RowEvHandlerName="muestrasdetRowChangeEventHandler" msprop:Generator_RowDeletedName="muestrasdetRowDeleted" msprop:Generator_UserTableName="muestrasdet" msprop:Generator_RowChangedName="muestrasdetRowChanged" msprop:Generator_RowEvArgName="muestrasdetRowChangeEvent" msprop:Generator_RowClassName="muestrasdetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn" msprop:Generator_UserColumnName="marca" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estilof" msprop:Generator_ColumnVarNameInTable="columnestilof" msprop:Generator_ColumnPropNameInRow="estilof" msprop:Generator_ColumnPropNameInTable="estilofColumn" msprop:Generator_UserColumnName="estilof" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descrip" msprop:Generator_ColumnVarNameInTable="columndescrip" msprop:Generator_ColumnPropNameInRow="descrip" msprop:Generator_ColumnPropNameInTable="descripColumn" msprop:Generator_UserColumnName="descrip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="i" msprop:Generator_ColumnVarNameInTable="columni" msprop:Generator_ColumnPropNameInRow="i" msprop:Generator_ColumnPropNameInTable="iColumn" msprop:Generator_UserColumnName="i" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="medini" msprop:Generator_ColumnVarNameInTable="columnmedini" msprop:Generator_ColumnPropNameInRow="medini" msprop:Generator_ColumnPropNameInTable="mediniColumn" msprop:Generator_UserColumnName="medini" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="medfin" msprop:Generator_ColumnVarNameInTable="columnmedfin" msprop:Generator_ColumnPropNameInRow="medfin" msprop:Generator_ColumnPropNameInTable="medfinColumn" msprop:Generator_UserColumnName="medfin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="preciolista" msprop:Generator_ColumnVarNameInTable="columnpreciolista" msprop:Generator_ColumnPropNameInRow="preciolista" msprop:Generator_ColumnPropNameInTable="preciolistaColumn" msprop:Generator_UserColumnName="preciolista" type="xs:decimal" minOccurs="0" />
+              <xs:element name="costo" msprop:Generator_ColumnVarNameInTable="columncosto" msprop:Generator_ColumnPropNameInRow="costo" msprop:Generator_ColumnPropNameInTable="costoColumn" msprop:Generator_UserColumnName="costo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="margen" msprop:Generator_ColumnVarNameInTable="columnmargen" msprop:Generator_ColumnPropNameInRow="margen" msprop:Generator_ColumnPropNameInTable="margenColumn" msprop:Generator_UserColumnName="margen" type="xs:decimal" minOccurs="0" />
+              <xs:element name="imagen" msprop:Generator_ColumnVarNameInTable="columnimagen" msprop:Generator_ColumnPropNameInRow="imagen" msprop:Generator_ColumnPropNameInTable="imagenColumn" msprop:Generator_UserColumnName="imagen" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
